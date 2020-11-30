@@ -1,0 +1,7 @@
+# Settings to block config files from the internet
+RedirectMatch 403 /\.apache2
+RedirectMatch 403 /\.mysql_history
+
+# Your 404 and 403 pages
+# ErrorDocument 404 /404.php
+# ErrorDocument 403 /403.php
