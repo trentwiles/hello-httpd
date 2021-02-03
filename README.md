@@ -53,8 +53,11 @@ Drag in `assets`, like images or music, to add them to your project.
 
 If your project isn't loading or working, try these things:
 
-- Click "Tools", then click Logs
--  Open the terminal and type `cd .apache2/log && tail -f error.log`.
+- Check your logs for errors.
+
+- Open the terminal and type `cd .apache2/log && tail -f error.log`.
+
+- Click `Tools`, then click `Logs`.
 
 Still need help? Ask on the [Glitch Support Forum](https://support.glitch.com)
 
